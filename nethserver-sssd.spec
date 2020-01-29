@@ -8,12 +8,12 @@ URL: %{url_prefix}/%{name}
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  nethserver-devtools
-Requires:       realmd, sssd, adcli, nethserver-lib
+Requires:       realmd, sssd, adcli, nethserver-base
 # send expiring password warnings: 
 Requires: mailx, postfix, anacron
 Requires: samba-common-tools >= 4.9.1
 Requires: krb5-workstation
-Requires: python2-tdb
+Requires: python3-tdb
 Requires: tdb-tools
 Requires: php-cli, openldap-clients
 
