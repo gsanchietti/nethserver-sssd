@@ -13,7 +13,7 @@ Requires:       realmd, sssd, adcli, nethserver-lib
 Requires: mailx, postfix, anacron
 Requires: samba-common-tools >= 4.9.1
 Requires: krb5-workstation
-Requires: python-tdb
+Requires: python2-tdb
 Requires: tdb-tools
 Requires: php-cli, openldap-clients
 
